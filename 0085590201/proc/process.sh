@@ -1,8 +1,12 @@
 #!/bin/sh
+# Initializing xspec
 heainit
+# Scripting xspec commands
 echo \
    "@spmodeling.xcm
-   setplot device spectrum.ps
    cpd /xw
-   plot" \
+   plot
+   setplot device $1/CPS
+   plot
+   " \
                         | xspec
