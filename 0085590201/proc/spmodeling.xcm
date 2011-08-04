@@ -20,10 +20,10 @@ systematic 0
 model  gaussian    +    gaussian    +    gaussian    +  gaussian  +    gaussian    +    gaussian    +    gaussian    +    constant*constant(gaussian + gaussian + gaussian + apec + (apec + apec + powerlaw)wabs + apec*wabs)
         1.49001      -0.05          0          0      1e+06      1e+06
               0      -0.05          0          0         10         20
-    0.000427216      -0.01          0          0      1e+24      1e+24
+    0.000427216       0.01          0          0      1e+24      1e+24
         1.73008      -0.05          0          0      1e+06      1e+06
-              0      -0.05          0          0         10         20
-    9.69251e-05      -0.01          0          0      1e+24      1e+24
+        4.8e-07      -0.05          0          0         10         20
+              0       0.01          0          0      1e+24      1e+24
             7.1      -0.05          0          0      1e+06      1e+06
               0      -0.05          0          0         10         20
               0      -0.01          0          0      1e+24      1e+24
